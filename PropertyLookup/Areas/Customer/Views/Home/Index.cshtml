@@ -4,7 +4,30 @@
 	Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-	<div class="text-center">
-		<h1 class="display-4">Welcome</h1>
-		<p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<style>
+	.searchTextRound{
+		border-top-left-radius:50px;
+		border-bottom-right-radius:50px
+	}
+	.searchHight {
+		height: 50px;
+	}
+</style>
+
+<div class="main">
+	<div class="sub-main card breadcrumb">
+		<div class="card-body row">
+			<div class="pt-xl-5 offset-2 col-8">
+				<div class="input-group mb-3">
+					<div class="input-group-prepend searchHight">
+						<span class="input-group-text" id="basic-addon3">PAMS Search</span>
+					</div>
+					<input type="text" class="form-control searchTextRound searchHight" id="basic-url" aria-describedby="basic-addon3">
+				</div>
+			</div>
+		</div>
 	</div>
+	<div class="searchResult">
+		here
+	</div>
+</div>
