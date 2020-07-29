@@ -1,0 +1,30 @@
+{
+  "version": "1.0",
+  "defaultProvider": "cdnjs",
+  "libraries": [
+    {
+      "library": "font-awesome@5.14.0",
+      "destination": "wwwroot/font-awesome/"
+    },
+    {
+      "library": "jquery@3.5.1",
+      "destination": "wwwroot/jquery/"
+    },
+    {
+      "library": "twitter-bootstrap@4.5.0",
+      "destination": "wwwroot/twitter-bootstrap/"
+    },
+    {
+      "library": "sweetalert@2.1.2",
+      "destination": "wwwroot/sweetalert/"
+    },
+    {
+      "library": "toastr.js@2.1.4",
+      "destination": "wwwroot/toastr.js/"
+    },
+    {
+      "library": "jquery.serializeJSON@2.9.0",
+      "destination": "wwwroot/jquery.serializeJSON/"
+    }
+  ]
+}
