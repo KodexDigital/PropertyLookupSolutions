@@ -7,8 +7,9 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 
-namespace PropertyLookup.Controllers
+namespace PropertyLookup.Areas.Customer.Controllers
 {
+	[Area("Customer")]
 	public class HomeController : Controller
 	{
 		private readonly ILogger<HomeController> _logger;
