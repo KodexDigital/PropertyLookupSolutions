@@ -1,6 +1,6 @@
 using System;
 
-namespace PropertyLookup.Models
+namespace System.Models
 {
 	public class ErrorViewModel
 	{
