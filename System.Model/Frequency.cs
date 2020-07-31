@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations;
 using System.Model.DB;
 using System.Text;
 
-namespace System.Model
+namespace System.Models
 {
 	public class Frequency : BaseModel
 	{

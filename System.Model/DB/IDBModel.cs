@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace System.Repository.IRepository
+namespace System.Models
 {
 	public interface IDBModel
 	{

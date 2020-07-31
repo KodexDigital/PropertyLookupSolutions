@@ -1,11 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Threading.Tasks;
 
 namespace System.Repository.IRepository
 {
-	public interface ISystemCreatedUser
+	public interface IUnitOfWork
 	{
-		public string CreatedUserId { get; set; }
+		ICategoryRepo CategoryWork { get;}
+		Task SaveAsync();
 	}
 }

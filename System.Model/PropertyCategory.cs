@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Model.DB;
 using System.Text;
 
-namespace System.Model
+namespace System.Models
 {
 	public class PropertyCategory : BaseModel
 	{
